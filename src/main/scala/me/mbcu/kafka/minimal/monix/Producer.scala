@@ -21,6 +21,6 @@ object Producer extends App{
   // For closing the producer connection
 //  val closeF = producer.close().runToFuture
 
-  Thread.sleep(1000)
+  Thread.sleep(1000) // need this otherwise producer will quit too early
 
 }

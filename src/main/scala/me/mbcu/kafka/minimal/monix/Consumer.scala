@@ -41,6 +41,6 @@ object Consumer extends App{
       }
     }
   observable.consumeWith(pConsumer).runToFuture.foreach(println)
-  Thread.sleep(2000)
+  Thread.sleep(200000)
 
 }

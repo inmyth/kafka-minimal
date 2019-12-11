@@ -24,3 +24,4 @@ So if you don't see anything on consumer side it doesn't mean the consumer hasn'
 #### Content
 - Monix 
     - observable pattern
+    - basically both producer and consumer will quit from main thread w/o any blocking sleep. For consumer the sleep needs to be long
