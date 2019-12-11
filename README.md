@@ -25,3 +25,6 @@ So if you don't see anything on consumer side it doesn't mean the consumer hasn'
 - Monix 
     - observable pattern
     - basically both producer and consumer will quit from main thread w/o any blocking sleep. For consumer the sleep needs to be long
+- Default
+    - default Java-ish implementation
+    - https://dzone.com/articles/hands-on-apache-kafka-with-scala
